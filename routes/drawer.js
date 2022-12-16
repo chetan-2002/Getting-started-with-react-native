@@ -8,7 +8,7 @@ export default function DrawerNavigator() {
   return (
     <Drawer.Navigator>
       <Drawer.Screen name="HomeScreen" component={HomeStack} />
-      <Drawer.Screen name="About" component={AboutStack} />
+      <Drawer.Screen name="AboutScreen" component={AboutStack} />
     </Drawer.Navigator>
   );
 }
